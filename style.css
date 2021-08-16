@@ -21,8 +21,8 @@ body {
     position: relative;
     top: 50px;
     left: 465px;
-    /* border: 1px solid #FFF; */
     border-radius: 10px;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.3);
 }
 
 .order-summary-container img {
