@@ -15,9 +15,29 @@ body {
 
 .order-summary-container {
     width: 450px;
-    height: 500px;
+    height: 525px;
     background-color: #FFF;
     position: relative;
     top: 75px;
     left: 465px;
+    /* border: 1px solid #FFF; */
+    border-radius: 10px;
+}
+
+.order-summary-container img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.order-summary-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.annual-plan {
+    display: flex;
+}
+
+.payment-buttons {
+    display: inline-grid;
 }
