@@ -1,4 +1,23 @@
 * {
     margin: 0; 
     padding: 0; 
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+}
+
+/* Desktop Styling */
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #E0E8FF;
+}
+
+.order-summary-container {
+    width: 450px;
+    height: 500px;
+    background-color: #FFF;
+    position: relative;
+    top: 75px;
+    left: 465px;
 }
