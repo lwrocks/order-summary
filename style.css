@@ -3,6 +3,7 @@
     padding: 0; 
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1rem;
+    color: #1F2F56;
 }
 
 /* Desktop Styling */
@@ -15,10 +16,10 @@ body {
 
 .order-summary-container {
     width: 450px;
-    height: 525px;
+    height: 575px;
     background-color: #FFF;
     position: relative;
-    top: 75px;
+    top: 50px;
     left: 465px;
     /* border: 1px solid #FFF; */
     border-radius: 10px;
@@ -27,15 +28,40 @@ body {
 .order-summary-container img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin-right: 10px;
 }
 
 .order-summary-text {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
+}
+
+.order-summary-text h1 {
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.order-summary-text p {
+    margin-top: 20px;
 }
 
 .annual-plan {
     display: flex;
+    padding: 30px;
+    background-color: #F5F7FF;
+    width: 300px;
+    position: relative;
+    left: 43px;
+}
+
+.annual-plan-text {
+    font-size: 0.875rem;
+}
+
+.annual-plan a {
+    margin-left: 90px;
+    margin-top: 8px;
+    font-weight: 700;
 }
 
 .payment-buttons {
