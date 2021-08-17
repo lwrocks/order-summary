@@ -15,11 +15,11 @@ body {
 }
 
 .order-summary-container {
-    width: 450px;
+    width: 337px;
     height: 575px;
     background-color: #FFF;
     position: relative;
-    top: 50px;
+    top: 30px;
     left: 465px;
     border-radius: 10px;
     box-shadow: 0 3px 20px rgb(0 0 0 / 0.3);
@@ -29,6 +29,7 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-right: 10px;
+    width: 337px;
 }
 
 .order-summary-text {
@@ -49,12 +50,12 @@ body {
     display: flex;
     padding: 30px;
     background-color: #F5F7FF;
-    width: 300px;
+    width: 220px;
     position: relative;
-    left: 43px;
+    left: 27px;
 }
 
-.annual-plan-text {
+.annual-plan-text p, strong {
     font-size: 0.875rem;
 }
 
@@ -66,4 +67,11 @@ body {
 
 .payment-buttons {
     display: inline-grid;
+}
+
+.payment {
+    width: 300px;
+    height: 50px;
+    margin-left: 75px;
+    border: none; 
 }
