@@ -1,9 +1,7 @@
 * {
     margin: 0; 
     padding: 0; 
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 1rem;
-    color: #1F2F56;
+    box-sizing: border-box;
 }
 
 /* Desktop Styling */
@@ -12,6 +10,9 @@ body {
     background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-color: #E0E8FF;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    color: #1F2F56;
 }
 
 .order-summary-container {
@@ -50,7 +51,7 @@ body {
     display: flex;
     padding: 15px;
     background-color: #F5F7FF;
-    width: 260px;
+    width: 285px;
     position: relative;
     left: 23px;
     border-radius: 10px;
