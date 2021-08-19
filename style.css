@@ -21,7 +21,7 @@ body {
     background-color: #FFF;
     position: relative;
     top: 50px;
-    left: 520px;
+    left: 550px;
     border-radius: 10px;
     box-shadow: 0 3px 20px rgb(0 0 0 / 0.3);
 }
@@ -79,6 +79,11 @@ body {
     color: #3829E0;
 }
 
+.annual-plan a:hover {
+    color: #766CF1;
+    text-decoration: none;
+}
+
 .payment-buttons {
     display: inline-grid;
 }
@@ -91,9 +96,15 @@ body {
     border: none; 
     background-color: #3829E0;
     color: #F5F7FF;
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 0.875rem;
     font-weight: 900;
     border-radius: 10px;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.3);
+}
+
+.payment:hover {
+    background-color: #766CF1;
 }
 
 .payment-buttons a {
@@ -104,4 +115,8 @@ body {
     font-size: 0.875rem;
     color: #7280a7;
     font-weight: 900;
+}
+
+.payment-buttons a:hover {
+    color: #1F2F56;
 }
